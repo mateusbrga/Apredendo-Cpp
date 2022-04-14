@@ -10,4 +10,5 @@ int main(){
     std::cin >> n;
     raiz=sqrt(n);
     std::cout << "Raiz: " << raiz <<std::endl; 
+    return 0;
 }
