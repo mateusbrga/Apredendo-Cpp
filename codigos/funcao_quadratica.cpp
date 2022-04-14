@@ -18,7 +18,7 @@ int main(){
     if(delta < 0){
         std::cout<< "A funcao nao tem raiz!(delta negativo)"<<std::endl;
     }
-    else if(delta=0){
+    else if(delta==0){
         x1= (b*-1)/(2*a);
         std::cout<<"Raiz: " << x1 <<std::endl;
     }
