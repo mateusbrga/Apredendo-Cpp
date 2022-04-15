@@ -2,7 +2,10 @@
 using namespace std;
 
 int main(){
-    int n, k, resultado;
+    int n, k;
+    double resultado;
+    std::cout << "Calculadora de exponenciacao - (n: numero & k: expoente)" <<std::endl;
+    std::cout << "(k > 0 para sair)" <<std::endl;
     do{
         std::cout << "Digite um valor para n: ";
         std::cin >> n;
