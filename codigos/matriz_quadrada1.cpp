@@ -6,7 +6,13 @@ const int MAX=5;
 
 
 void func(int **matriz){
-    
+    int i, j, n_elem=0, lin=0;
+    for(i=0; i<MAX; i++){
+        for(j=0;j<MAX;j++){
+            n_elem++;
+        }
+    }
+    std::cout << n_elem;
 }
 
 int main(){
@@ -22,9 +28,9 @@ int main(){
         matriz[i]= new int[c]; //criando linhas
         for(j=0; j < c; j++){ //preenchendo e imprimindo
             matriz[i][j]=1;
-            std::cout << matriz[i][j] <<"\t"; 
+            //std::cout << matriz[i][j] <<"\t"; 
         }
-        std::cout<<"\n";
+        //std::cout<<"\n";
     }
     func(matriz);
     for (i=0; i < c; i++){
