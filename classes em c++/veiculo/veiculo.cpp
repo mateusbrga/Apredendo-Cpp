@@ -1,6 +1,7 @@
-#include "veiculo.h"
+#include "Veiculo.h"
 
 //implementando funções (arquivo.cpp)
+
 
 void Veiculo::acelerar(double aumVel){
     velocidade += aumVel;
